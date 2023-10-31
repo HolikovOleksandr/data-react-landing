@@ -10,8 +10,8 @@ const Hero = () => {
         <div className='flex justify-center items-center'>
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>Fast, flexeble financing for</p>
           <Typed
-            className='md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4'
-            strings={['B2B', 'B2C', 'SASS']}
+            className='md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4 text-gray-700'
+            strings={['BTB', 'SASS', 'BTC']}
             typeSpeed={120}
             backSpeed={140}
             loop
@@ -20,7 +20,9 @@ const Hero = () => {
         <p className='md:test-2xl text-xl font-bold text-gray-400'>
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.
         </p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>
+          Get Started
+        </button>
       </div>
     </div>
   );
